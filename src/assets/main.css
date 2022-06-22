@@ -1,0 +1,9 @@
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=8c9d5c29-01ac-44fc-ae51-efddb0e5ae2a&fontids=5664150");
+@font-face{
+    font-family:"Helvetica Neue LT W05 75 Bold";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src:url("/fonts/helvetica/800da3b0-675f-465f-892d-d76cecbdd5b1.woff2") format("woff2"),url("/fonts/helvetica/7b415a05-784a-4a4c-8c94-67e9288312f5.woff") format("woff");
+}

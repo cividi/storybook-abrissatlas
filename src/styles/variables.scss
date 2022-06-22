@@ -1,1 +1,44 @@
-$body-font-family: 'Roboto', sans-serif;$btn-font-weight: 700;
+$body-font-family: 'Queue', sans-serif;
+$heading-font-family: 'Helvetica Neue LT W05 75 Bold', 'Arial', sans-serif;
+$headings: (
+    'h1': (
+        'text-transform': uppercase,
+        'weight': 700,
+        'letter-spacing': normal
+    ),
+    'h2': (
+        'text-transform': uppercase,
+        'weight': 700,
+        'letter-spacing': normal
+    ),
+    'h3': (
+        'text-transform': uppercase,
+        'weight': 700,
+        'letter-spacing': normal
+    ),
+    'h4': (
+        'text-transform': uppercase,
+        'weight': 700,
+        'letter-spacing': normal
+    ),
+    'h5': (
+        'text-transform': uppercase,
+        'weight': 700,
+        'letter-spacing': normal
+    ),
+    'h6': (
+        'text-transform': uppercase,
+        'weight': 700,
+        'letter-spacing': normal
+    ),
+    'button': (
+        'font-family': $heading-font-family,
+        'weight': 700
+    ),
+    'body-1': (
+        'letter-spacing': normal
+    ),
+    'body-2': (
+        'letter-spacing': normal
+    )
+);

@@ -8,7 +8,7 @@
       <p>
         &nbsp;
       </p>
-      <h3 class="caption annotation">1. Headlines w/ underline</h3>
+      <h2 class="text-h6 annotation">1. Headlines w/ underline</h2>
       <v-row
         v-for="[c, text, size, weight, spacing, margin] in headings"
         key="c"
@@ -24,7 +24,7 @@
         >
         <v-col
           cols="4"
-          ><div class="caption annotation">
+          ><div class="annotation">
             Font: Helvetica Neue LT W05 75 Bold<br />Size: {{ size
             }}<br />Weight: {{ weight }}<br />Letter Spacing: {{ spacing }}<br>
             Underline Width: {{ (underlineWidth * (1 - c / 6) ) }}px<br>Underline Distance: {{ underlineDistance }}em
@@ -32,9 +32,7 @@
         >
       </v-row>
 
-      <v-row>
-        <caption class="caption annotation">2. Headlines w/o underline</caption>
-      </v-row>
+      <h2 class="text-h6 annotation">2. Headlines w/o underline</h2>
       <v-row
         v-for="[c, text, size, weight, spacing, margin] in headings"
         key="c"
@@ -47,16 +45,14 @@
         >
         <v-col
           cols="4"
-          ><div class="caption annotation">
+          ><div class="annotation">
             Font: Helvetica Neue LT W05 75 Bold<br />Size: {{ size
             }}<br />Weight: {{ weight }}<br />Letter Spacing: {{ spacing }}
           </div></v-col
         >
       </v-row>
 
-      <v-row>
-        <caption class="caption annotation">3. Body Text</caption>
-      </v-row>
+      <h2 class="text-h6 annotation">3. Body Text</h2>
       <v-row v-for="[c, text, size, weight, spacing, margin] in bodies" key="c">
         <v-col
           cols="8"
@@ -66,7 +62,7 @@
         >
         <v-col
           cols="4"
-          ><div class="caption annotation">
+          ><div class="annotation">
             Font: Queue<br />Size: {{ size }}<br />Weight: {{ weight
             }}<br />Letter Spacing: {{ spacing }}
           </div></v-col
@@ -77,17 +73,11 @@
 </template>
 
 <style lang="scss">
-#root {
-  font-size: var(--base-size)
-}
-
-.caption {
-  margin-left: 1em;
-}
 .annotation {
   color: rgb(122, 53, 53);
   font-weight: 500;
   font-family: 'Helvetica Neue', 'Arial', sans-serif !important;
+  font-size: 0.6em;
 }
 </style>
 
@@ -128,7 +118,7 @@ export default {
       ["body-2", "Body 2", "0.875rem", "400", "normal", 4],
       ["button", "Button", "0.875rem", "500", ".0892857143em", 4],
       ["caption", "Caption", "0.75rem", "400", ".0333333333em", 4],
-      ["overline", "Overline", "0.75rem", "500", ".1666666667em", 4],
+      ["overline", "Overline", "1rem", "700", "normal", 4],
     ],
   }),
 };

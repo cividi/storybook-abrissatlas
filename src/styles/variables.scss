@@ -40,5 +40,10 @@ $headings: (
     ),
     'body-2': (
         'letter-spacing': normal
-    )
+    ),
+    'caption': (
+        'size': '1rem',
+        'weight': 700,
+        'font-family': $heading-font-family,
+    ),
 );

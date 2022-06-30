@@ -1,9 +1,14 @@
 # .github/workflows/chromatic.yml
 
-# Other configuration required
+# Workflow name
+name: 'Chromatic'
+
+# Event for the workflow
+on: push
 
 jobs:
   chromatic-deployment:
+    runs-on: ubuntu-latest
     steps:
         # 👇 Version 2 of the action
       - name: Checkout repository
